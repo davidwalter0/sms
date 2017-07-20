@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export APP_OVERRIDE_PREFIX="TWILIO"
+
+export TWILIO_ACCOUNT_SID="XYXYXYXYXYXYXYXYXYXY"
+export TWILIO_AUTH_TOKEN="hashhashhashhash..."
+# country code
+export TWILIO_FROM_PHONE="+1#########"
+export TWILIO_TO_PHONE="+1##########"
+export TWILIO_TEXT="$@"
+
+go run send.go ${@}
