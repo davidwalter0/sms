@@ -1,0 +1,10 @@
+#!/bin/bash
+export APP_OVERRIDE_PREFIX="TWILIO"
+export TWILIO_ACCOUNT_SID="ACdeadbeeffeedca11ab1e4e8deadbeef"
+export TWILIO_AUTH_TOKEN="ca11ab1edeadbeefdeadbeefca11ab1e"
+# uses country code
+export TWILIO_FROM_PHONE="+15555551234"
+export TWILIO_TO_PHONE="+15555555432"
+# if you wanted a default text message you might export that here
+# export TWILIO_TEXT="$@"
+
